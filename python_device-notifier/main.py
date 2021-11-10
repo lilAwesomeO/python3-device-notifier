@@ -120,7 +120,6 @@ def main():
         
     init()
     if not getSize() >= int(MAX_BYTES):
-        print("AAAA")
         run()
     else:
         print("Error:. Too little bytes allowed by device_notifier_config.ini")
